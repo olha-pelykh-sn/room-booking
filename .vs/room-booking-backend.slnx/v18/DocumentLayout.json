@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5FEC2C-7494-4E37-9304-0CB1F24B4E28}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A5FEC2C-7494-4E37-9304-0CB1F24B4E28}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\room-booking-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "room-booking-backend",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj",
+              "RelativeDocumentMoniker": "room-booking-backend\\room-booking-backend.csproj",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj",
+              "RelativeToolTip": "room-booking-backend\\room-booking-backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-27T09:38:03.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
