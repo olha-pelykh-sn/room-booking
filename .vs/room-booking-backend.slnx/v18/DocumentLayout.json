@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\sevices\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\sevices\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\sevices\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\sevices\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\validations\\createroomrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\validations\\createroomrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\validations\\getavailableroomsrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\validations\\getavailableroomsrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\validations\\updateroomrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\validations\\updateroomrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\repository\\implementation\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\repository\\implementation\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\repository\\implementation\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\repository\\implementation\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\repository\\abstraction\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\repository\\abstraction\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\exceptions\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\migrations\\20260827165512_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\migrations\\20260827165512_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\room-booking-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|e:\\code folder\\room booking\\room-booking-backend\\room-booking-backend\\mappings\\roomprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5198595A-6133-B2BD-0990-4AAC9AC8E69E}|room-booking-backend\\room-booking-backend.csproj|solutionrelative:room-booking-backend\\mappings\\roomprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,105 +82,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260827165512_InitialCreate.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Migrations\\20260827165512_InitialCreate.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Migrations\\20260827165512_InitialCreate.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Migrations\\20260827165512_InitialCreate.cs",
-              "RelativeToolTip": "room-booking-backend\\Migrations\\20260827165512_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T16:55:13.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Models\\Booking.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Booking.cs",
-              "RelativeToolTip": "room-booking-backend\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T16:22:33.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Room.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Models\\Room.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Room.cs",
-              "RelativeToolTip": "room-booking-backend\\Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T16:20:02.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Program.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Program.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Program.cs",
-              "RelativeToolTip": "room-booking-backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "UpdateRoomRequestValidator.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\UpdateRoomRequestValidator.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Validations\\UpdateRoomRequestValidator.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\UpdateRoomRequestValidator.cs",
+              "RelativeToolTip": "room-booking-backend\\Validations\\UpdateRoomRequestValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T16:09:55.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\appsettings.json",
-              "RelativeDocumentMoniker": "room-booking-backend\\appsettings.json",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\appsettings.json",
-              "RelativeToolTip": "room-booking-backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-27T16:06:39.51Z",
+              "WhenOpened": "2026-08-28T13:20:05.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "room-booking-backend\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Title": "GetAvailableRoomsRequestValidator.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\GetAvailableRoomsRequestValidator.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Validations\\GetAvailableRoomsRequestValidator.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\GetAvailableRoomsRequestValidator.cs",
+              "RelativeToolTip": "room-booking-backend\\Validations\\GetAvailableRoomsRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T10:31:01.506Z",
+              "WhenOpened": "2026-08-28T13:19:55.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Service.cs",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "room-booking-backend\\Models\\Service.cs",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Service.cs",
-              "RelativeToolTip": "room-booking-backend\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateRoomRequestValidator.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\CreateRoomRequestValidator.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Validations\\CreateRoomRequestValidator.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Validations\\CreateRoomRequestValidator.cs",
+              "RelativeToolTip": "room-booking-backend\\Validations\\CreateRoomRequestValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T10:29:13.121Z",
+              "WhenOpened": "2026-08-28T13:19:22.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "room-booking-backend.csproj",
-              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj",
-              "RelativeDocumentMoniker": "room-booking-backend\\room-booking-backend.csproj",
-              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\room-booking-backend.csproj",
-              "RelativeToolTip": "room-booking-backend\\room-booking-backend.csproj",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-27T09:38:03.18Z"
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Implementation\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Repository\\Implementation\\BookingRepository.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Implementation\\BookingRepository.cs",
+              "RelativeToolTip": "room-booking-backend\\Repository\\Implementation\\BookingRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:08:22.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Implementation\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Repository\\Implementation\\RoomRepository.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Implementation\\RoomRepository.cs",
+              "RelativeToolTip": "room-booking-backend\\Repository\\Implementation\\RoomRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:05:51.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Models\\Service.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Service.cs",
+              "RelativeToolTip": "room-booking-backend\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:03:18.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Models\\Booking.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Models\\Booking.cs",
+              "RelativeToolTip": "room-booking-backend\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T13:03:15.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Program.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Program.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Program.cs",
+              "RelativeToolTip": "room-booking-backend\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:25:44.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Controllers\\RoomsController.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "room-booking-backend\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:13:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Exceptions\\GlobalExceptionHandler.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Exceptions\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "room-booking-backend\\Exceptions\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:13:18.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoomProfile.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Mappings\\RoomProfile.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Mappings\\RoomProfile.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Mappings\\RoomProfile.cs",
+              "RelativeToolTip": "room-booking-backend\\Mappings\\RoomProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:13:14.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Sevices\\Implementations\\RoomService.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Sevices\\Implementations\\RoomService.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Sevices\\Implementations\\RoomService.cs",
+              "RelativeToolTip": "room-booking-backend\\Sevices\\Implementations\\RoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:05:23.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRoomRepository.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Abstraction\\IRoomRepository.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Repository\\Abstraction\\IRoomRepository.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Repository\\Abstraction\\IRoomRepository.cs",
+              "RelativeToolTip": "room-booking-backend\\Repository\\Abstraction\\IRoomRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:04:28.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Sevices\\Interfaces\\IRoomService.cs",
+              "RelativeDocumentMoniker": "room-booking-backend\\Sevices\\Interfaces\\IRoomService.cs",
+              "ToolTip": "E:\\CODE FOLDER\\ROOM BOOKING\\room-booking-backend\\room-booking-backend\\Sevices\\Interfaces\\IRoomService.cs",
+              "RelativeToolTip": "room-booking-backend\\Sevices\\Interfaces\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T12:04:19.316Z",
+              "EditorCaption": ""
             }
           ]
         }
