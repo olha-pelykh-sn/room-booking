@@ -27,11 +27,14 @@ namespace room_booking_backend.Repository.Implementation
             return room;
         }
 
-        public async Task<Room> UpdateAsync(int id, Room room, CancellationToken cancellationToken)
+        public async Task<Room?> UpdateAsync(int id, Room room, CancellationToken cancellationToken)
         {
             var existing = await dbContext.Rooms.FindAsync([id], cancellationToken);
 
-            existing!.Name = room.Name;
+            if (existing is null)
+                return null;
+
+            existing.Name = room.Name;
             existing.Price = room.Price;
             existing.Capacity = room.Capacity;
 
@@ -39,24 +42,28 @@ namespace room_booking_backend.Repository.Implementation
             return existing;
         }
 
-        public async Task<Room> DeleteAsync(int id, CancellationToken cancellationToken)
+        public async Task<Room?> DeleteAsync(int id, CancellationToken cancellationToken)
         {
             var existing = await dbContext.Rooms.FindAsync([id], cancellationToken);
 
-            dbContext.Rooms.Remove(existing!);
+            if (existing is null)
+                return null;
+
+            dbContext.Rooms.Remove(existing);
             await dbContext.SaveChangesAsync(cancellationToken);
-            return existing!;
+            return existing;
         }
 
         public async Task<Room?> GetByIdAsync(int id, CancellationToken cancellationToken)
         {
             return await dbContext.Rooms.FindAsync([id], cancellationToken);
         }
+
         public async Task<bool> IsExistByNameAsync(string name, CancellationToken cancellationToken)
         {
             return await dbContext.Rooms
                 .AsNoTracking()
-                .AnyAsync(r => r.Name!.ToLower() == name!.ToLower(), cancellationToken);
+                .AnyAsync(r => r.Name != null && r.Name.ToLower() == name.ToLower(), cancellationToken);
         }
     }
 }

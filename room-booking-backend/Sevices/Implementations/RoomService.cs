@@ -20,8 +20,9 @@ namespace room_booking_backend.Sevices.Implementations
 
         public async Task<DefaultRoomResponse?> CreateAsync(CreateRoomRequest request, CancellationToken cancellationToken)
         {
-            if (await roomRepository.IsExistByNameAsync(request.Name, cancellationToken))
-                throw new InvalidOperationException($"Room with name \"{request.Name}\" already exists");
+            var roomName = request.Name ?? string.Empty;
+            if (await roomRepository.IsExistByNameAsync(roomName, cancellationToken))
+                throw new InvalidOperationException($"Room with name \"{roomName}\" already exists");
 
             var room = mapper.Map<Room>(request);
             var created = await roomRepository.CreateAsync(room, cancellationToken);
@@ -34,10 +35,11 @@ namespace room_booking_backend.Sevices.Implementations
             var existing = await roomRepository.GetByIdAsync(id, cancellationToken)
                 ?? throw new KeyNotFoundException($"Room with id {id} not found");
 
-            bool nameConflict = await roomRepository.IsExistByNameAsync(request.Name, cancellationToken);
+            var newName = request.Name ?? string.Empty;
+            bool nameConflict = await roomRepository.IsExistByNameAsync(newName, cancellationToken);
 
-            if (nameConflict && existing.Name?.ToLower() != request.Name?.ToLower())
-                throw new InvalidOperationException($"Room with name \"{request.Name}\" already exists");
+            if (nameConflict && !string.Equals(existing.Name, newName, StringComparison.OrdinalIgnoreCase))
+                throw new InvalidOperationException($"Room with name \"{newName}\" already exists");
 
             var room = mapper.Map<Room>(request);
             var updated = await roomRepository.UpdateAsync(id, room, cancellationToken);

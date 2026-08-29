@@ -1,35 +1,35 @@
 using FluentValidation;
+using room_booking_backend.Constants;
 using room_booking_backend.DTOs.RoomDTOs.Requests;
-using System;
 
-public class GetAvailableRoomsRequestValidator : AbstractValidator<GetAvailableRoomsRequest>
+namespace room_booking_backend.Validations
 {
-    public GetAvailableRoomsRequestValidator()
+    public class GetAvailableRoomsRequestValidator : AbstractValidator<GetAvailableRoomsRequest>
     {
-        // Working time definition
-        var workStart = TimeSpan.FromHours(10);
-        var workEnd = TimeSpan.FromHours(18);
+        public GetAvailableRoomsRequestValidator()
+        {
+            RuleFor(x => x.CheckIn)
+                .NotEmpty().WithMessage("CheckIn date is required")
+                .Must(dt => dt > DateTime.UtcNow).WithMessage("CheckIn must be in the future")
+                .Must(IsWithinWorkingHours)
+                .WithMessage($"CheckIn time must be between {BusinessRules.WorkingHoursOpen:hh\\:mm} and {BusinessRules.WorkingHoursClose:hh\\:mm}");
 
-        RuleFor(x => x.CheckIn)
-            .NotEmpty().WithMessage("CheckIn date is required")
-            .GreaterThan(DateTime.UtcNow).WithMessage("CheckIn must be in the future")
-            .Must(checkIn => IsWithinWorkingHours(checkIn, workStart, workEnd))
-            .WithMessage("CheckIn time must be between 10:00 and 18:00");
+            RuleFor(x => x.CheckOut)
+                .NotEmpty().WithMessage("CheckOut date is required")
+                .GreaterThan(x => x.CheckIn).WithMessage("CheckOut must be later than CheckIn")
+                .Must(IsWithinWorkingHours)
+                .WithMessage($"CheckOut time must be between {BusinessRules.WorkingHoursOpen:hh\\:mm} and {BusinessRules.WorkingHoursClose:hh\\:mm}");
 
-        RuleFor(x => x.CheckOut)
-            .NotEmpty().WithMessage("CheckOut date is required")
-            .GreaterThan(x => x.CheckIn).WithMessage("CheckOut must be later than CheckIn")
-            .Must(checkOut => IsWithinWorkingHours(checkOut, workStart, workEnd))
-            .WithMessage("CheckOut time must be between 10:00 and 18:00");
+            RuleFor(x => x.Capacity)
+                .GreaterThan(0).WithMessage("Capacity must be greater than 0")
+                .LessThanOrEqualTo(BusinessRules.MaxRoomCapacity)
+                .WithMessage($"Capacity must not exceed {BusinessRules.MaxRoomCapacity}");
+        }
 
-        RuleFor(x => x.Capacity)
-            .GreaterThan(0).WithMessage("Capacity must be greater than 0")
-            .LessThanOrEqualTo(100).WithMessage("Capacity must not exceed 100");
-    }
-
-    private bool IsWithinWorkingHours(DateTime dateTime, TimeSpan start, TimeSpan end)
-    {
-        var time = dateTime.TimeOfDay;
-        return time >= start && time <= end;
+        private static bool IsWithinWorkingHours(DateTime dateTime)
+        {
+            var time = dateTime.TimeOfDay;
+            return time >= BusinessRules.WorkingHoursOpen && time <= BusinessRules.WorkingHoursClose;
+        }
     }
 }

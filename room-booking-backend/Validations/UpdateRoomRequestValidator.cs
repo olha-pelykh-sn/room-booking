@@ -1,4 +1,5 @@
 using FluentValidation;
+using room_booking_backend.Constants;
 using room_booking_backend.DTOs.RoomDTOs.Requests;
 
 namespace room_booking_backend.Validations
@@ -9,7 +10,8 @@ namespace room_booking_backend.Validations
         {
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Name is required")
-                .MaximumLength(100).WithMessage("Name must not exceed 100 characters");
+                .MaximumLength(BusinessRules.MaxRoomNameLength)
+                .WithMessage($"Name must not exceed {BusinessRules.MaxRoomNameLength} characters");
 
             RuleFor(x => x.Price)
                 .NotNull().WithMessage("Price is required")
@@ -18,7 +20,8 @@ namespace room_booking_backend.Validations
             RuleFor(x => x.Capacity)
                 .NotNull().WithMessage("Capacity is required")
                 .GreaterThan(0).WithMessage("Capacity must be greater than 0")
-                .LessThanOrEqualTo(1000).WithMessage("Capacity must not exceed 100");
+                .LessThanOrEqualTo(BusinessRules.MaxRoomCapacity)
+                .WithMessage($"Capacity must not exceed {BusinessRules.MaxRoomCapacity}");
         }
     }
 }
